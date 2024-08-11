@@ -9,7 +9,7 @@ data = {
 response = requests.get(url, data=data)
 
 print(response.status_code)
-
-print(response.headers)
-
 print(response.text)
+
+
+
